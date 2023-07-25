@@ -1,0 +1,55 @@
+.touch {
+    display: grid;
+    gap: 24px;
+
+    &__input {
+        color: var(--c-text-secondary);
+        font-family: var(--ff);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 16px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background: var(--services-bg);
+
+        &_textarea {
+            color: var(--c-text-secondary);
+            font-family: var(--ff);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-left: 16px;
+            padding-top: 14px;
+            height: 120px;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            background: var(--services-bg);
+        }
+    }
+
+    &__btn {
+        width: 147px;
+        color: var(--c-text-white);
+        font-family: var(--ff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 13px 18px;
+        border-radius: 5px;
+        border: 1px solid var(--primary, #ED9902);
+        background: var(--primary, #ED9902);
+        margin-bottom: 90px;
+    }
+}
+
+.touch-forms {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+}

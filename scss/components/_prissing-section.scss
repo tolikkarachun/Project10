@@ -1,0 +1,101 @@
+
+.prising {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 26px;
+  @include mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+    @include mobile {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  &__silver {
+  }
+
+  &__info {
+    &_orange {
+    }
+  }
+
+  &__title {
+    color: var(--c-text-white);
+    font-family: var(--ff);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  &__price {
+    color: var(--c-text-white);
+    font-family: var(--ff);
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  &__desc {
+    color: var(--c-text-secondary);
+    font-family: var(--ff);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 48px;
+  }
+
+  &__btn {
+    color: var(--c-text-white);
+    font-family: var(--ff);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 13px 18px;
+    border-radius: 5px;
+    border: 1px solid var(--primary, #ED9902);
+    &_orange {
+        color: var(--c-text-white);
+        font-family: var(--ff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 13px 18px;
+        border-radius: 5px;
+        border: 1px solid var(--primary, #ED9902);
+        background: var(--primary, #ED9902);
+    }
+  }
+
+  &__free {
+    margin-top: 35px;
+    &_ul {
+    }
+
+    &_li {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: #a19a8b;
+        font-family: var(--ff);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+    &_a {
+     
+    }
+  }
+}

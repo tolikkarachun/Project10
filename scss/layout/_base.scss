@@ -1,0 +1,18 @@
+body {
+	font-family: var(--ff);
+	background: var(--body-bg);
+}
+
+
+.container {
+	max-width: calc(1141px + 20px);
+	padding: 20px;
+	margin-inline: auto;
+}
+
+
+.section {
+	margin-top: 90px;
+	padding-top: 90px;
+	border-top: 1px solid rgba(255, 255, 255, 0.15);
+}

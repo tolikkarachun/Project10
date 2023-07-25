@@ -1,0 +1,56 @@
+.portfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 26px;
+
+	@include tablet {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@include mobile {
+		grid-template-columns: 1fr;
+	}
+
+	&__item {
+		cursor: pointer;
+		position: relative;
+		border-radius: 8px;
+
+		img {
+			border-radius: inherit;
+		}
+
+		&:hover {
+			.portfolio__search {
+				opacity: 1;
+
+				img {
+					transform: scale(1);
+				}
+			}
+
+
+		}
+	}
+
+	&__search {
+		transition: var(--transition);
+		opacity: 0;
+		width: 76px;
+		height: 76px;
+		border-radius: 50%;
+		background: var(--c-primary);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		img {
+			transition: var(--transition);
+			transform: scale(0);
+		}
+	}
+}

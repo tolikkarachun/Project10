@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Start project</title>
+</head>
+
+<body>
+	<div class="container">
+		<!-- header -->
+		<header class="header">
+			<a class="header__logo" href="/">
+				<img src="img/logo.svg" alt="William King">
+			</a>
+			<div class="header__nav">
+				<ul class="header__ul" id="headerUl">
+					<li class="header__li"><a class="header__a _active" href="/">About</a></li>
+					<li class="header__li"><a class="header__a" href="/">Services</a></li>
+					<li class="header__li"><a class="header__a" href="/">Portfolio</a></li>
+					<li class="header__li"><a class="header__a" href="/">Testimonials</a></li>
+					<li class="header__li"><a class="header__a" href="/">Pricing</a></li>
+					<li class="header__li"><a class="header__a" href="/">Contact</a></li>
+					<span class="material-icons icon-close">close</span>
+				</ul>
+				<span class="material-icons icon-menu" onclick="navToggle()">menu</span>
+			</div>
+		</header>
+		<section class="name-section">
+			<div class="name-section__info">
+				<div class="name-section__title">I’m William K.</div>
+				<div class="name-section__professions">
+					<ul class="name-section__professions_ul">
+						<li class="name-section__professions_li">Web Designer</li>
+						<li class="name-section__professions_li">/</li>
+						<li class="name-section__professions_li">UI Designer</li>
+						<li class="name-section__professions_li">/</li>
+						<li class="name-section__professions_li">Graphic designer</li>
+					</ul>
+				</div>
+				<div class="name-section__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+					dignissim. Commodo pellentesque tristique aliquet
+					turpis. Morbi risus imperdiet</div>
+				<a href="/" class="btn _primary name-section__btn">Explore My Work</a>
+			</div>
+			<div class="name-section__image">
+				<img src="img/title_image.png" alt="William">
+			</div>
+		</section>
+		<section class="section services-section">
+			<div class="title">My <span>Services</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo
+				pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+			<div class="services">
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/cup.svg" alt="">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+							dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/check.svg" alt="">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+							dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/menu.svg" alt="">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+							dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/send.svg" alt="">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+							dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/settings.svg" alt="">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+							dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__icon">
+						<img src="img/services/headphones.svg" alt="">
+					</div>
+					<div class="services__info">
+						<div class="services__title">Service title</div>
+						<div class="services__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+							dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section portfolio-section">
+			<div class="title">My <span>Portfolio</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo
+				pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+			<div class="portfolio">
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item1.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item2.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item3.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item4.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item5.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+				<div class="portfolio__item">
+					<img src="img/portfolios/portfolio-item6.jpg" alt="portfolio-item1">
+					<a href="/" class="portfolio__search">
+						<img src="img/portfolios/search.svg" alt="search">
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section customers-section">
+			<div class="title">Listen to my <span>customers</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo
+				pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+			<div class="customers">
+				<div class="customers__item">
+					<div class="customers__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+						dignissim.
+						Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<div class="customers__info">
+						<div class="customers__icon">
+							<img src="img/customers/alexander.png" alt="">
+						</div>
+						<div class="customers__info-man">
+							<div class="customers__name">Guy Hawkins</div>
+							<div class="customers__profession">Web Designer</div>
+						</div>
+					</div>
+				</div>
+				<div class="customers__item">
+					<div class="customers__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+						dignissim.
+						Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<div class="customers__info">
+						<div class="customers__icon">
+							<img src="img/customers/guy.png" alt="">
+						</div>
+						<div class="customers__info-man">
+                        	<div class="customers__name">Guy Hawkins</div>
+							<div class="customers__profession">Web Designer</div>
+						</div>
+					</div>
+				</div>
+				<div class="customers__item">
+					<div class="customers__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+						dignissim.
+						Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<div class="customers__info">
+						<div class="customers__icon">
+							<img src="img/customers/devon.png" alt="">
+						</div>
+						<div class="customers__info-man">
+							<div class="customers__name">Devon Lane</div>
+							<div class="customers__profession">Medical Assistant</div>
+						</div>
+					</div>
+				</div>
+				<div class="customers__item">
+					<div class="customers__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+						dignissim.
+						Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+					<div class="customers__info">
+						<div class="customers__icon">
+							<img src="img/customers/floyd.png" alt="">
+						</div>
+						<div class="customers__info-man">
+							<div class="customers__name">Floyd Miles</div>
+							<div class="customers__profession">Marketing Coordinator</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section prising-section">
+			<div class="title">My <span>Prising</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo
+				pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+			<div class="prising">
+				<div class="prising__silver">
+					<div class="prising__info">
+						<div class="prising__title">Silver</div>
+						<div class="prising__price">$99.0</div>
+						<div class="prising__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+							dignissim. Commodo pellentesque tristique aliquetn turpis. Morbi risus imperdiet</div>
+						<a href="/" class="prising__btn">Get Started</a>
+					</div>
+					<div class="prising__free">
+						<ul class="prising__free_ul">
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+						</ul>
+					</div>
+				</div>
+				<div class="prising__silver">
+					<div class="prising__info">
+						<div class="prising__title">Silver</div>
+						<div class="prising__price">$99.0</div>
+						<div class="prising__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+							dignissim. Commodo pellentesque tristique aliquetn turpis. Morbi risus imperdiet</div>
+						<a href="/" class="prising__btn_orange">Get Started</a>
+					</div>
+					<div class="prising__free">
+						<ul class="prising__free_ul">
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+							<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+						</ul>
+					</div>
+				</div>
+				<div class="prising__silver">
+					<div class="prising__info_orange">
+						<div class="prising__title">Silver</div>
+							<div class="prising__price">$99.0</div>
+							<div class="prising__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis
+								dignissim. Commodo pellentesque tristique aliquetn turpis. Morbi risus imperdiet</div>
+							<a href="/" class="prising__btn">Get Started</a>
+						</div>
+						<div class="prising__free">
+							<ul class="prising__free_ul">
+								<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+								<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+								<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+								<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+								<li class="prising__free_li"><img src="img/tick.svg" alt="tick">12 GB Free space</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="section touch-section">
+			<div class="title">Get in <span>touch</span></div>
+			<div class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo
+				pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+				<div class="touch">
+					<label class="touch-forms">
+						<input class="touch__input" type="text" name="name" placeholder="Enter Your Name">
+					</label>
+					<label class="touch-forms">
+						<input class="touch__input" type="text" name="adress" placeholder="Enter your email address">
+					</label>
+					
+					<label class="touch-forms">
+						<textarea class="touch__input_textarea" name="name" placeholder="Enter Message"></textarea>
+					</label>
+					<a href="/" class="touch__btn">Send Message</a>
+				</div>
+		</section>
+		<footer class="footer">
+			<div class="container footer__container">
+				<div class="footer__year">© <script>document.write(new Date().getFullYear());</script> All rights reserved. Designed by <span class="sa7man">SA7MAN.</span></div>
+				<nav class="footer__nav">
+					<ul class="footer__ul">
+						<li class="footer__li"><a href="/" class="footer__a">Twitter</a></li>
+						<li class="footer__li"><a href="/" class="footer__a">Dribbble</a></li>
+						<li class="footer__li"><a href="/" class="footer__a">Github</a></li>
+						<li class="footer__li"><a href="/" class="footer__a">Instagram</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
